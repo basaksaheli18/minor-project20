@@ -1,0 +1,42 @@
+body{
+    background-size:cover;
+    font-family:arial;
+    background-image:url('online.jpg')
+}
+.container{
+    max-width:400px;
+    border-radius:10px;
+    margin:50px;
+    box-sizing: border-box;
+    padding: 40px;
+   background-color:lightseagreen;
+    margin-right: 20px;
+}
+h2{
+    text-align: center;
+    box-sizing: border-b0x;
+}
+input[type=text],input[type=email],input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px brown;
+    color:blue;
+    border-radius: 5px 10px;
+    margin:5px;
+    font-weigh:bold;
+}
+input[type=submit]{
+    width:100%;
+    box-sizing:border-box;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background:lightgreen;
+    border-radius:10px 20px;
+    font-size:20px;
+    color:forestgreen;
+}
