@@ -1,0 +1,21 @@
+<?php
+include("dbconnection.php")
+?>
+
+
+
+.navbar-brand {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.568);
+}
+
+/* Plus Button for adding New Users Bottom */
+.box {
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	margin-bottom: 30px;
+}
+

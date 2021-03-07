@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title>Admin logout</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Logout</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <style>
     body {
         background: #f3eee8;
@@ -21,15 +21,15 @@
             <div class="col-md-6 offset-3">
                 <div class="card" style="margin-top:10%; padding:20px">
                     <div class="card-header">
-                        <h4> forgot password</h4>
+                        <h4> Logout</h4>
                         <p>
                             Please enter your details.
                         </p>
 
-                    </div>
+                                            </div>
                     <br>
                     <form class="form-group" method="POST" action="">
-
+                       
                         <div class="form-group">
                             <input type="text" class="form-control" name="email" placeholder="Enter your email"
                                 required>
@@ -44,7 +44,7 @@
                         <div>
                             <input type="submit" name="logout" value="logout" class="btn btn-outline-primary">
 
-                            <a style="float:right" href="../logout.php"> forgot password </a>
+                            <a style="float:right" href="./admininclude/adminDashboard.php"> </a>
                         </div>
                     </form>
                 </div>
